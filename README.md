@@ -1,49 +1,25 @@
-## Overwatch 2 Cheat 
-
-It can be used with an ahk script just make sure to not cover outlines of the skins with the esp
+UPDATED version : https://github.com/NMan1/warzone-internal
 
 
+# Modern-Warfare-Warzone-Cheat
+#### A cheat for modern warfare (the warzone) game mode. Threw it together in a day and put 0 effort into it so expect shit code. Nonetheless it works
 
-# Features: 
+**THIS IS NOT UPDATED NOR WILL I UPDATE IT FOR YOU**
 
-Aimbot:
+### Creaing a thread in the dll is not safe
+ - Remove that and add the code relying on that thread (the key loop) into one of the hooked functions
 
-- Weapon Selection
+ <img src="https://i.imgur.com/mGR2X3D.png"/>  
 
-- Memory Aim
+- Top right a small terrible  menu
+- Top left a terrible watermark
 
-- On Key (On/Off)
-
-- Aim Bones (Head) (Neck) (Body) (Closest)
-
-- Visibles Check
-
-- Smooth (1-10)
-
-- FOV (1-100)
-
- Visuals:
-
-- On Key (On/Off)
-
-- Player Names
-
-- Player Distance
-
-- Health Bar (Constant) (Normal)
-
-- Health Text
-
-- Bounding Box (3D) (2D)
-
-- Outlines (Above) (Below) (Crosshair)
-
-- Color Picker
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/115836520/195933692-d8ce748b-bedf-4a83-989b-beb980f85adc.png)
+## Keybinds (numpad)
+  - 0 brings up debug console
+  - 1 toggles esp
+  - 2 toggles text
+  - 3 toggles snaplines
+  
+When the enemy gets closer than 100m their color turns to orange
+Dll needs to be natively injected (no manual map thred hijack etc, if u want security then fix that)
+credits: https://github.com/Sh0ckFR/Universal-Dear-ImGui-Hook for d3d12 imgui hook
